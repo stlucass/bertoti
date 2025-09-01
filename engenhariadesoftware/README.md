@@ -19,3 +19,7 @@ Traz uma melhor definição de engenharia de software, dizendo que pode ser ente
 ## ATIVIDADE 4
 Diagrama UML:<br>
 ![Imagem do exercicio 2](/assets/diagrama-uml.png)
+<br>
+## ATIVIDADE 5
+
+## ATIVIDADE 6
