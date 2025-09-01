@@ -17,4 +17,5 @@ Traz uma melhor definição de engenharia de software, dizendo que pode ser ente
    - Investir em infraestrutura melhora a performance, mas aumenta os gastos; economizar reduz custos, mas pode comprometer a qualidade. 
 
 ## ATIVIDADE 4
-Diagrama UML:
+Diagrama UML:<br>
+![Imagem do exercicio 2](/assets/diagrama-uml.png)
