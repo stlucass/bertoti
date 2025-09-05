@@ -1,3 +1,16 @@
+# SUMÁRIO
+- [Atividade 1](#atividade-1)
+- [Atividade 2](#atividade-2)
+- [Atividade 3](#atividade-3)
+- [Atividade 4](#atividade-4)
+- [Atividade 5, 6 e 7](#atividade-56-e-7)
+- [Estrutura do projeto](#estrutura-do-projeto)
+- [Classe Aluno](#classe-aluno)
+- [Classe Professor](#classe-professor)
+- [Classe Escola](#classe-escola)
+- [Classe de Teste](#classe-de-teste)
+- [Classe de Conexao](#classe-de-conexao)
+
 ## ATIVIDADE 1
 Mostra que muitas pessoas acreditam que programação e engenharia de software são a mesma coisa, porém, mesmo andando lado a lado, elas tem suas diferenças. Por exemplo, um engenheiro de software aplica conhecimentos e regras para construir algo.
 
@@ -31,7 +44,7 @@ Diagrama UML:<br>
 ![Imagem da classe escola](/assets/classe_escola.png)
 ### CLASSE DE TESTE
 ![Imagem da classe de teste](/assets/classe_teste.png)
-### CLASSE CONEXÃO
+### CLASSE DE CONEXAO
 ![Imagem da classe de conexão](/assets/classe_escoladb-1.png)
 ![Imagem da classe de conexão](/assets/classe_escoladb-2.png)
 ![Imagem da classe de conexão](/assets/classe_escoladb-3.png)
