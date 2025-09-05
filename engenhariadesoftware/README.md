@@ -18,8 +18,21 @@ Traz uma melhor definição de engenharia de software, dizendo que pode ser ente
 
 ## ATIVIDADE 4
 Diagrama UML:<br>
-![Imagem do exercicio 2](/assets/diagrama-uml.png)
+![Imagem do exercicio 2](/assets/diagrama_uml.png)
 <br>
-## ATIVIDADE 5
-
-## ATIVIDADE 6
+## ATIVIDADE 5,6 E 7
+### ESTRUTURA DO PROJETO
+![Imagem da estrutura do projeto](/assets/estrutura_projeto.png)
+### CLASSE ALUNO
+![Imagem da classe aluno](/assets/classe_aluno.png)
+### CLASSE PROFESSOR
+![Imagem da classe professor](/assets/classe_professor.png)
+### CLASSE ESCOLA
+![Imagem da classe escola](/assets/classe_escola.png)
+### CLASSE DE TESTE
+![Imagem da classe de teste](/assets/classe_teste.png)
+### CLASSE CONEXÃO
+![Imagem da classe de conexão](/assets/classe_escoladb-1.png)
+![Imagem da classe de conexão](/assets/classe_escoladb-2.png)
+![Imagem da classe de conexão](/assets/classe_escoladb-3.png)
+![Imagem da classe de conexão](/assets/classe_escoladb-4.png)
