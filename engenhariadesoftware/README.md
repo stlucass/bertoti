@@ -6,17 +6,17 @@ O objetivo é exercitar a aplicação de boas práticas, entender os trade-offs 
 ---
 
 ## 📑 Sumário
-- [Atividade 1](#atividade-1)
-- [Atividade 2](#atividade-2)
-- [Atividade 3](#atividade-3)
-- [Atividade 4](#atividade-4)
-- [Atividade 5, 6 e 7](#atividade-56-e-7)
+- [Atividade 1](#-atividade-1)
+- [Atividade 2](#-atividade-2)
+- [Atividade 3](#-atividade-3)
+- [Atividade 4](#-atividade-4)
+- [Atividade 5, 6 e 7](#-atividade-5-6-e-7)
   - [Estrutura do projeto](#estrutura-do-projeto)
   - [Classe Aluno](#classe-aluno)
   - [Classe Professor](#classe-professor)
   - [Classe Escola](#classe-escola)
   - [Classe de Teste](#classe-de-teste)
-  - [Classe de Conexão](#classe-de-conexao)
+  - [Classe de Conexao](#classe-de-conexao)
 
 ---
 
@@ -31,7 +31,7 @@ Definição de engenharia de software como um processo **integrado e contínuo**
 
 ---
 
-## ⚖️ Atividade 3 — Trade-offs no Desenvolvimento
+## 📝 Atividade 3
 1. **Velocidade x Qualidade**  
    - Entregar rápido gera resultados imediatos, mas pode criar **dívidas técnicas**.
 
@@ -52,35 +52,23 @@ Definição de engenharia de software como um processo **integrado e contínuo**
 ## 💻 Atividade 5, 6 e 7
 Implementação prática do projeto com **classes orientadas a objetos**.
 
-### 📂 Estrutura do Projeto
+### Estrutura do projeto
 ![Estrutura do Projeto](/assets/estrutura_projeto.png)
 
-### 👨‍🎓 Classe Aluno
+### Classe Aluno
 ![Classe Aluno](/assets/classe_aluno.png)
 
-### 👨‍🏫 Classe Professor
+### Classe Professor
 ![Classe Professor](/assets/classe_professor.png)
 
-### 🏫 Classe Escola
+### Classe Escola
 ![Classe Escola](/assets/classe_escola.png)
 
-### 🧪 Classe de Teste
+### Classe de Teste
 ![Classe de Teste](/assets/classe_teste.png)
 
-### 🔗 Classe de Conexão
-![Classe de Conexão 1](/assets/classe_escoladb-1.png)  
-![Classe de Conexão 2](/assets/classe_escoladb-2.png)  
-![Classe de Conexão 3](/assets/classe_escoladb-3.png)  
-![Classe de Conexão 4](/assets/classe_escoladb-4.png)
-
----
-
-## 🚀 Tecnologias Utilizadas
-- Java ☕
-- UML 🖊️
-- Conceitos de Engenharia de Software 🏗️
-
----
-
-## 📌 Observações
-Este projeto tem caráter **didático** e foi desenvolvido para fins de estudo em **Engenharia de Software**.
+### Classe de Conexao
+![Classe de Conexao 1](/assets/classe_escoladb-1.png)  
+![Classe de Conexao 2](/assets/classe_escoladb-2.png)  
+![Classe de Conexao 3](/assets/classe_escoladb-3.png)  
+![Classe de Conexao 4](/assets/classe_escoladb-4.png)
