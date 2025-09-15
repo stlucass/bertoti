@@ -17,6 +17,8 @@ O objetivo é exercitar a aplicação de boas práticas, entender os trade-offs 
   - [Classe Escola](#classe-escola)
   - [Classe de Teste](#classe-de-teste)
   - [Classe de Conexao](#classe-de-conexao)
+- [Atividade 8](#-atividade-8)
+
 
 ---
 
@@ -73,3 +75,6 @@ Implementação prática do projeto com **classes orientadas a objetos**.
 ![Classe de Conexao 2](/assets/classe_escoladb-2.png)  
 ![Classe de Conexao 3](/assets/classe_escoladb-3.png)  
 ![Classe de Conexao 4](/assets/classe_escoladb-4.png)
+
+## 📝 Atividade 8
+
