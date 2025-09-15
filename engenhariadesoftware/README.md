@@ -21,25 +21,26 @@ O objetivo é exercitar a aplicação de boas práticas, entender os trade-offs 
 ---
 
 ## 📝 Atividade 1
-Reflexão sobre a diferença entre **programação** e **engenharia de software**.  
-Enquanto a programação foca na escrita de código, a engenharia de software busca aplicar **métodos, processos e boas práticas** para construir soluções escaláveis e sustentáveis a longo prazo.
+O texto argumenta que a engenharia de software atual não é tão rigorosa quanto outras engenharias, como a aeronáutica, onde erros podem causar danos reais. No entanto, à medida que o software se torna mais presente em nossas vidas, o autor defende a necessidade de adotar métodos mais rigorosos. O autor usa o termo **intangibilidade** para explicar por que a engenharia de software, historicamente, não seguiu as mesmas práticas rigorosas de outras disciplinas. É mais difícil "ver" um erro em um código do que em uma estrutura física. À medida que o software se integra cada vez mais em nossas vidas e em sistemas críticos, os erros, mesmo que criados em um produto intangível, podem causar danos muito reais. Por isso, a engenharia de software precisa adotar métodos tão rigorosos quanto os de qualquer outra engenharia. A perspectiva única do Google, sugerida no final, é que a empresa pode contribuir para a literatura de engenharia de software, mostrando um caminho para práticas mais confiáveis e rigorosas.
 
 ---
 
 ## 📝 Atividade 2
-Definição de engenharia de software como um processo **integrado e contínuo**, no qual o software deve ser capaz de **evoluir junto com a organização** e adaptar-se às mudanças de requisitos e contexto.
+O trecho define a engenharia de software de uma forma muito mais ampla do que apenas escrever código. Para a perspectiva do Google, ela engloba todas as ferramentas e processos que uma organização utiliza para construir e manter seu código ao longo do tempo.
+O texto coloca questões importantes sobre como manter o valor de um código a longo prazo, torná-lo sustentável e mais rigoroso. Ele não promete respostas definitivas, mas oferece a experiência do Google, acumulada em duas décadas, para "iluminar possíveis caminhos".
+A principal ideia é que a engenharia de software pode ser vista como "programação integrada ao longo do tempo". Isso significa que o foco não está apenas na criação inicial do código, mas em como ele pode se adaptar a mudanças necessárias durante todo seu ciclo de vida.
 
 ---
 
 ## 📝 Atividade 3
-1. **Velocidade x Qualidade**  
-   - Entregar rápido gera resultados imediatos, mas pode criar **dívidas técnicas**.
+1. **Escalabilidade x Simplicidade**  
+   -  Optar por uma arquitetura altamente escalável desde o início pode introduzir uma complexidade desnecessária para uma aplicação pequena, atrasando o desenvolvimento e aumentando os custos de manutenção. Por outro lado, priorizar a simplicidade total pode levar a um sistema que não consegue lidar com o crescimento futuro sem uma reestruturação completa e cara.
 
-2. **Segurança x Usabilidade**  
-   - Mais regras aumentam a proteção, mas podem reduzir a experiência do usuário.
+2. **Portabilidade x Desempenho**  
+   - Um sistema otimizado para um único tipo de hardware ou sistema operacional pode ser extremamente rápido, mas não funcionará em outro ambiente. Já um software altamente portátil pode ter uma pequena perda de desempenho devido à camada de abstração necessária para rodar em qualquer lugar.
 
-3. **Custo x Desempenho**  
-   - Investir em infraestrutura garante performance, mas eleva o orçamento.
+3. **Velocidade x Segurança**  
+   - A pressão por entregas rápidas pode levar a atalhos, como pular testes, negligenciar a documentação ou usar soluções "rápidas e sujas". Isso pode resultar em um produto com bugs, difícil de manter no futuro e, em alguns casos, com sérias falhas de segurança. Por outro lado, um foco excessivo na perfeição e na segurança pode desacelerar o ciclo de desenvolvimento, fazendo com que a empresa perca oportunidades de mercado.
 
 ---
 
