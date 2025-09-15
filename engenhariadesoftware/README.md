@@ -1,25 +1,74 @@
-## ATIVIDADE 1
-Mostra que muitas pessoas acreditam que programação e engenharia de software são a mesma coisa, porém, mesmo andando lado a lado, elas tem suas diferenças. Por exemplo, um engenheiro de software aplica conhecimentos e regras para construir algo.
+# 📚 Projeto de Engenharia de Software
 
-Pode se dizer que engenharia de software ainda não tem regras tao precisas para a contrução de um porgrama, mas conforme o tempo passa ela se tornará cada vez mais rigororsa.
+Este repositório contém atividades e exemplos práticos relacionados a conceitos de **Engenharia de Software** e **Programação Orientada a Objetos**.  
+O objetivo é exercitar a aplicação de boas práticas, entender os trade-offs envolvidos no desenvolvimento de software e estruturar um projeto completo com classes e diagramas UML.
 
-## ATIVIDADE 2
-Traz uma melhor definição de engenharia de software, dizendo que pode ser entendida como uma programação integrada a longo prazo, onde o código deve se adaptar ao longo de sua vida útil, a organização também se adaptar conforme o código evolui e suas decisões.
+---
 
-## ATIVIDADE 3
+## 📑 Sumário
+- [Atividade 1](#-atividade-1)
+- [Atividade 2](#-atividade-2)
+- [Atividade 3](#-atividade-3)
+- [Atividade 4](#-atividade-4)
+- [Atividade 5, 6 e 7](#-atividade-5-6-e-7)
+  - [Estrutura do projeto](#estrutura-do-projeto)
+  - [Classe Aluno](#classe-aluno)
+  - [Classe Professor](#classe-professor)
+  - [Classe Escola](#classe-escola)
+  - [Classe de Teste](#classe-de-teste)
+  - [Classe de Conexao](#classe-de-conexao)
+
+---
+
+## 📝 Atividade 1
+Reflexão sobre a diferença entre **programação** e **engenharia de software**.  
+Enquanto a programação foca na escrita de código, a engenharia de software busca aplicar **métodos, processos e boas práticas** para construir soluções escaláveis e sustentáveis a longo prazo.
+
+---
+
+## 📝 Atividade 2
+Definição de engenharia de software como um processo **integrado e contínuo**, no qual o software deve ser capaz de **evoluir junto com a organização** e adaptar-se às mudanças de requisitos e contexto.
+
+---
+
+## 📝 Atividade 3
 1. **Velocidade x Qualidade**  
-   - Entregar rápido pode ser bom no curto prazo, mas gera dívidas técnicas que dificultam a manutenção.  
+   - Entregar rápido gera resultados imediatos, mas pode criar **dívidas técnicas**.
 
 2. **Segurança x Usabilidade**  
-   - Regras rígidas aumentam a proteção do sistema, mas podem deixar a experiência do usuário mais difícil.  
+   - Mais regras aumentam a proteção, mas podem reduzir a experiência do usuário.
 
 3. **Custo x Desempenho**  
-   - Investir em infraestrutura melhora a performance, mas aumenta os gastos; economizar reduz custos, mas pode comprometer a qualidade. 
+   - Investir em infraestrutura garante performance, mas eleva o orçamento.
 
-## ATIVIDADE 4
-Diagrama UML:<br>
-![Imagem do exercicio 2](/assets/diagrama-uml.png)
-<br>
-## ATIVIDADE 5
+---
 
-## ATIVIDADE 6
+## 📊 Atividade 4
+### Diagrama UML
+![Diagrama UML](/assets/diagrama_uml.png)
+
+---
+
+## 💻 Atividade 5, 6 e 7
+Implementação prática do projeto com **classes orientadas a objetos**.
+
+### Estrutura do projeto
+![Estrutura do Projeto](/assets/estrutura_projeto.png)
+
+### Classe Aluno
+![Classe Aluno](/assets/classe_aluno.png)
+
+### Classe Professor
+![Classe Professor](/assets/classe_professor.png)
+
+### Classe Escola
+![Classe Escola](/assets/classe_escola.png)
+
+### Classe de Teste
+![Classe de Teste](/assets/classe_teste.png)
+
+### Classe de Conexao
+![Classe de Conexao 1](/assets/classe_escoladb-1.png)  
+![Classe de Conexao 2](/assets/classe_escoladb-2.png)  
+![Classe de Conexao 3](/assets/classe_escoladb-3.png)  
+![Classe de Conexao 4](/assets/classe_escoladb-4.png)
