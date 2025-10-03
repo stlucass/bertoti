@@ -1,9 +1,4 @@
-# Ollama Qwen3 Chat (JavaFX) — FINAL
-
-Projeto Maven com JavaFX (compatível com Scene Builder) para conversar com o Ollama usando o modelo `qwen3:1.7b`.
-- **pom.xml no diretório raiz** ✅
-- **FXML válido (sem caracteres extras)** ✅
-- **Remoção de `<think>`** ✅
+# Ollama - Lucas Castro
 
 ## Pré-requisitos
 - Java 17+
@@ -30,5 +25,3 @@ mvn -q clean javafx:run
 - Ajuste **Host** (padrão `http://localhost:11434`) e **Modelo** (`qwen3:1.7b`) no topo.
 - Digite a pergunta e **Enter** / **Enviar**.
 - Conversa aparece no centro (texto puro).
-
-Bom proveito!
