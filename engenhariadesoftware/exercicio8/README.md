@@ -1,10 +1,5 @@
 # Ollama - Lucas Castro
 
-Projeto Maven com JavaFX (compatível com Scene Builder) para conversar com o Ollama usando o modelo `qwen3:1.7b`.
-- **pom.xml no diretório raiz** 
-- **FXML válido (sem caracteres extras)** 
-- **Remoção de `<think>`** 
-
 ## Pré-requisitos
 - Java 17+
 - Maven 3.8+
