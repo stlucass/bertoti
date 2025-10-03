@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21.0.4" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.ollama.ui.ChatController">
+
+    <top>
+        <GridPane hgap="8.0" vgap="8.0">
+            <padding>
+                <Insets top="10.0" right="10.0" bottom="10.0" left="10.0"/>
+            </padding>
+
+            <columnConstraints>
+                <ColumnConstraints percentWidth="20.0"/>
+                <ColumnConstraints percentWidth="30.0"/>
+                <ColumnConstraints percentWidth="20.0"/>
+                <ColumnConstraints percentWidth="30.0"/>
+            </columnConstraints>
+
+            <rowConstraints>
+                <RowConstraints vgrow="NEVER"/>
+            </rowConstraints>
+
+            <Label text="Host:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtHost" promptText="http://localhost:11434"
+                       GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+            <Label text="Modelo:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+            <ComboBox fx:id="cboModel" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+        </GridPane>
+    </top>
+
+    <center>
+        <TextArea fx:id="txtConversation" editable="false" wrapText="true" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets top="10.0" right="10.0" bottom="0.0" left="10.0"/>
+            </BorderPane.margin>
+        </TextArea>
+    </center>
+
+    <bottom>
+        <HBox spacing="8.0">
+            <padding>
+                <Insets top="10.0" right="10.0" bottom="10.0" left="10.0"/>
+            </padding>
+            <TextField fx:id="txtQuestion" HBox.hgrow="ALWAYS"
+                       promptText="Digite sua pergunta e pressione Enter"/>
+            <Button fx:id="btnSend" text="Enviar" onAction="#onSend"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>
