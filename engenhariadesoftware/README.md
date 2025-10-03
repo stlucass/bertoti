@@ -77,4 +77,4 @@ Implementação prática do projeto com **classes orientadas a objetos**.
 ![Classe de Conexao 4](/assets/classe_escoladb-4.png)
 
 ## 📝 Atividade 8
-
+![Exercicio 8](/engenhariadesoftware/exercicio8)
