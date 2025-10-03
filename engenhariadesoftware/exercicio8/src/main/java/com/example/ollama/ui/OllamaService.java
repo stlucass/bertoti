@@ -20,9 +20,6 @@ public class OllamaService {
             .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
     public static String askOnce(String baseUrl, String model, String userQuestion) throws IOException, InterruptedException {
-        if (model == null || model.isBlank()) {
-            throw new IllegalArgumentException("Modelo vazio. Informe o modelo (ex.: qwen3:1.7b).");
-        }
         String host = normalizeHost(baseUrl);
         String url = host.endsWith("/") ? host + "api/chat" : host + "/api/chat";
 
