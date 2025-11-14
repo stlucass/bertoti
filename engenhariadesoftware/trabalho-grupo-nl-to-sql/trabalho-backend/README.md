@@ -1,66 +1,40 @@
-# trabalho-backend
+# Trabalho-backend
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+## NL to SQL com Inteligência Artificial
 
-If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
+Este projeto é uma aplicação de **backend** desenvolvida com **Quarkus**, o *Supersonic Subatomic Java Framework*, que tem como objetivo central utilizar **Inteligência Artificial (IA)** para traduzir consultas em **Linguagem Natural (Português)** para comandos **SQL** executáveis.
 
-## Running the application in dev mode
+## Funcionalidade Principal: NL to SQL com LLM
 
-You can run your application in dev mode that enables live coding using:
+O recurso `NlToSqlResource.java` é o que implementa a tradução e a execução segura das consultas no banco de dados.
+
+### Arquitetura de IA
+
+* **Endpoint Principal:** A funcionalidade de pergunta e resposta pode ser acessada através do endpoint `POST` em `/perguntar`.
+* **Modelo de Linguagem (LLM):** A tradução complexa é realizada pelo modelo **Llama 3 (8B)**.
+* **Serviço de API:** O código se conecta ao serviço **OpenRouter** através da API de *chat completions* (`OPENROUTER_API_URL`) para enviar a pergunta e receber o SQL gerado.
+* **Contexto:** O código fornece à IA o **esquema do banco de dados** (tabelas `cursos`, `alunos` e `matriculas`) para que ela possa gerar o SQL com nomes de colunas e tabelas corretos.
+
+### Banco de Dados
+
+O `PROMPT_TEMPLATE_SISTEMA` instrui explicitamente a IA a gerar **apenas comandos `SELECT`** e rejeitar operações de escrita (`UPDATE`, `DELETE`, `INSERT`), garantindo que a aplicação seja *read-only* e mais segura.
+
+**Banco de Dados:** A aplicação utiliza **NeonDB (Postgres)**.
+
+
+## 🛠️ Pré-requisitos
+
+1.  **Java/JDK 17+**
+2.  **Maven** (Já incluso como `./mvnw` no projeto)
+3.  **Banco de Dados PostgreSQL** (Necessário configurar as credenciais em `application.properties`)
+4.  **Chave de API do OpenRouter:** Deve ser configurada na variável de ambiente ou no arquivo `application.properties` como `openrouter.api.key`.
+
+
+## ⚙️ Executando a Aplicação
+
+### 1. Modo Desenvolvimento (Live Coding)
+
+Para rodar a aplicação em modo de desenvolvimento, que permite o *live coding* (mudanças no código refletem instantaneamente):
 
 ```shell script
 ./mvnw quarkus:dev
-```
-
-> **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at <http://localhost:8080/q/dev/>.
-
-## Packaging and running the application
-
-The application can be packaged using:
-
-```shell script
-./mvnw package
-```
-
-It produces the `quarkus-run.jar` file in the `target/quarkus-app/` directory.
-Be aware that it’s not an _über-jar_ as the dependencies are copied into the `target/quarkus-app/lib/` directory.
-
-The application is now runnable using `java -jar target/quarkus-app/quarkus-run.jar`.
-
-If you want to build an _über-jar_, execute the following command:
-
-```shell script
-./mvnw package -Dquarkus.package.jar.type=uber-jar
-```
-
-The application, packaged as an _über-jar_, is now runnable using `java -jar target/*-runner.jar`.
-
-## Creating a native executable
-
-You can create a native executable using:
-
-```shell script
-./mvnw package -Dnative
-```
-
-Or, if you don't have GraalVM installed, you can run the native executable build in a container using:
-
-```shell script
-./mvnw package -Dnative -Dquarkus.native.container-build=true
-```
-
-You can then execute your native executable with: `./target/trabalho-backend-1.0.0-SNAPSHOT-runner`
-
-If you want to learn more about building native executables, please consult <https://quarkus.io/guides/maven-tooling>.
-
-## Related Guides
-
-- JDBC Driver - PostgreSQL ([guide](https://quarkus.io/guides/datasource)): Connect to the PostgreSQL database via JDBC
-
-## Provided Code
-
-### RESTEasy JAX-RS
-
-Easily start your RESTful Web Services
-
-[Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
