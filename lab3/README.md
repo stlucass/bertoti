@@ -44,7 +44,7 @@ Para executar o projeto localmente, siga os passos abaixo em cada parte do siste
    ./mvnw spring-boot:run
    (No Windows use mvnw.cmd ou simplesmente rode através da sua IDE).
 
-O backend ficará disponível em http://localhost:8080.
+O backend ficará disponível em http://localhost:8080 ou http://localhost:8081 (validar no terminal a hora que executar o comando).
 
 ### Configurando o Frontend
 
