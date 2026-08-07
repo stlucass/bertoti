@@ -34,7 +34,7 @@ Meu principal objetivo profissional é criar soluções robustas e seguras, unin
 ## Meus Projetos
 
 ### Em 2025-1
-![banner-api-1](./assets/banner-calculadora.png)
+![banner-api-1](./assets/capa_1_semestre.png)
 
 ## Calculadora de Sequências Lógicas
 
@@ -120,8 +120,9 @@ ate(Resposta = "N") OU (Resposta = "n")
 ---
 
 ### Em 2025-2
-![banner-api-2](./assets/banner-tgconnect.png)
-
+<p align="center">
+  <img src="./assets/capa_2_semestre.jpeg" alt="banner-api-2">
+</p>
 ## TG Connect
 
 ### Empresa Parceira: Fictícia (Projeto Acadêmico Interno - Cliente: Prof. Emanuel Mineda)
@@ -187,8 +188,9 @@ O TG Connect foi desenvolvido como um sistema desktop unificado capaz de gerenci
 ---
 
 ### Em 2026-3
-![banner-api-3](./assets/banner-flowtrack.png)
-
+<p align="center">
+  <img src="./assets/capa_3_semestre.jpeg" alt="banner-api-2">
+</p>
 ## FlowTrack
 
 ### Empresa Parceira: [IPEM – Instituto de Pesos e Medidas (Regional São José dos Campos)](https://www.ipem.sp.gov.br/)
