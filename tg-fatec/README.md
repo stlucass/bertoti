@@ -46,7 +46,7 @@ O ensino e a prática de sequências matemáticas complexas muitas vezes esbarra
 ### Solução Entregue pela Equipe:
 Foi desenvolvida uma Calculadora de Sequências Lógicas construída inteiramente em VisualG. O sistema interativo de terminal permite que o usuário escolha qual sequência matemática deseja calcular, insira os parâmetros de limite e visualize não apenas o resultado final, mas a construção passo a passo da operação matemática. O sistema conta com validações, loops de repetição para múltiplos cálculos e uma interface de texto padronizada.
 
-**Repositório do Projeto:** [API-2025-1](https://github.com/LizardsDBA/API-2025-1)
+**Repositório do Projeto:** [API-2025-1](https://github.com/stlucass/API-2025-1)
 
 #### Tecnologias Utilizadas
 
@@ -201,7 +201,7 @@ O controle de abastecimento e a gestão das viaturas da frota do IPEM eram reali
 ### Solução Entregue pela Equipe:
 A equipe desenvolveu o FlowTrack, um sistema web integrado projetado para substituir os registros físicos por um ambiente totalmente digital e mapeado. A aplicação permite o registro seguro de abastecimentos, gerando indicadores automatizados de consumo e visualização de rotas. O sistema facilitou a gestão da frota, garantindo rastreabilidade, auditoria e fornecendo uma base de dados sólida para as decisões gerenciais do IPEM, eliminando os erros do processo manual.
 
-[Repositório do Projeto](https://github.com/LizardsDBA/API-2026-3)
+**Repositório do Projeto:** [API-2026-3](https://github.com/stlucass/API-2026-3)
 
 #### Tecnologias Utilizadas
 
