@@ -1,0 +1,28 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: onboarding-agent
+  ai:
+    openai:
+      base-url: http://localhost:8080
+      api-key: not-needed
+      chat:
+        options:
+          model: gemma-2-2b-it
+          temperature: 0.2
+
+agent:
+  ui: console
+  workspace-path: ${user.home}/agent-workspace
+  journey-path: ${user.home}/.onboarding-agent-journey.properties
+  max-replans: 2
+  max-retries: 2
+  confidence-threshold: 0.5
+
+github:
+  api-url: https://api.github.com
+  owner: ""
+  repo: ""
+  token: ${GITHUB_TOKEN:}
